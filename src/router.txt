@@ -1,0 +1,33 @@
+<script setup>
+import { RouterLink, RouterView } from 'vue-router'
+</script>
+
+<template>
+  <header>
+    <div class="wrapper">
+      <nav>
+        <RouterLink to="/">School</RouterLink>
+        <RouterLink to="/classes">Classes</RouterLink>
+        <RouterLink to="/fees">Fees</RouterLink>
+        <RouterLink to="/parents">Parents</RouterLink>
+        <RouterLink to="/learners">Learners</RouterLink>
+        <RouterLink to="/staff">Staff</RouterLink>
+      </nav>
+    </div>
+  </header>
+  <RouterView />
+</template>
+
+<style scoped>
+header {
+  margin: 1rem 0;
+}
+nav{
+  display: flex;
+  gap: 1rem;
+}
+a {
+  text-decoration: none;
+}
+
+</style>

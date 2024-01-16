@@ -1,0 +1,31 @@
+@import './base.css';
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+body {
+  min-height: 150vh;
+  display: flex;
+  justify-content: center;
+
+  background: url("../assets/schoolcover.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  
+}
+
+.form {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 0 0 10px rgba(18, 32, 62, 0.2);
+}
+
+.mb-t-20 {
+  margin: 2rem 0;
+}
